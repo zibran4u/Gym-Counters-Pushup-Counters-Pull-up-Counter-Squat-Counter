@@ -4,7 +4,9 @@
 ### Similarly any exercise that has extreme positions can be used in this counter.
 ##### We simply dump positional value of various joints in a human body in one file for one given position, and values of other extreme pose in second csv file. (this could be done by file:g_bootstrap_images.py)
 
-### The logic behind it is: we are using knn to match the value of distance of all body joints in a given video frame to the csv files(that are basically two classes: i)sitting or ii)standing : in case of squats). Just use a simple counter or flags that given the number of switches b/w the classes.
+### The logic behind it is: we are using knn to match the value of distance of all body joints in a given video frame to the csv files(that are basically two classes: i)sitting or ii)standing : in case of squats). 
+
+#### Use a simple counter or flags that given the number of switches b/w the classes.
 - To run the code use the last file : i_classification.py. It requires video file path to work upon. as well as csv. Use same CSV file for the respective exercise. For example, you canot use sitting and standing csv file for a pull up video. :P.
 
 
